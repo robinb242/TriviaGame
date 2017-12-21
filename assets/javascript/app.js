@@ -1,4 +1,4 @@
-/*
+
 var count=30;
 
 var counter=setInterval(timer,1000);
@@ -8,10 +8,13 @@ function timer() {
 	if (count <= 0) {
 
 	clearInterval(counter);
+
+	return;
 }
-document.GetElementbyId("timer").innerHTML=count + "secs";
+
+document.getElementById("timer").innerHTML=count + "secs";
 }
-*/
+
 
     
 function submitAnswers() {
